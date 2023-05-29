@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #222;
+}
+.full-page-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .full-page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
